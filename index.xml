@@ -11,6 +11,118 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Data-driven discovery of dynamical systems</title>
+      <link>https://briandesilva.github.io/research/dynamical-system-discovery/</link>
+      <pubDate>Tue, 17 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://briandesilva.github.io/research/dynamical-system-discovery/</guid>
+      <description>
+
+&lt;!-- TODO: include some pictures --&gt;
+
+&lt;h1 id=&#34;the-problem&#34;&gt;The problem&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;A large chunk of applied mathematics aims to understand dynamical systems and to characterize their behavior.&lt;/li&gt;
+&lt;li&gt;But what happens if you have a physical system for which you don&amp;rsquo;t &lt;em&gt;know&lt;/em&gt; the governing equations?
+You suspect that underneath it all there is probably a set of differential equations pulling the strings, but you are unable or unwilling to derive them analytically.&lt;/li&gt;
+&lt;li&gt;If you are able to get your hands on &lt;em&gt;measurements&lt;/em&gt; of the system, then you may be able to use a data-driven approach.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;a-solution&#34;&gt;A solution&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;One recently developed method is the Sparse Identification of Nonlinear Dynamical systems (SINDy)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;how-it-works&#34;&gt;How it works&lt;/h2&gt;
+
+&lt;p&gt;The main idea is that the right-hand sides of many dynamical systems of interest do not include many terms, implying that they are &lt;em&gt;sparse&lt;/em&gt; with respect to an appropriately chosen basis.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://briandesilva.github.io/img/SINDY_fig.png&#34; alt=&#34;Image summary of the SINDy method&#34; /&gt;
+&lt;!-- 
+&lt;figure &gt;
+    
+        &lt;img src=&#34;SINDY_fig.png&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Image summary of the SINDy method&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+ --&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Measurement data is passed in (one can optionally feed in derivatives of the measurements as well)&lt;/li&gt;
+&lt;li&gt;A library of possible interaction functions is specified. If this set of functions is rich enough then a subset of them will make up all the terms on the right-hand side of the dynamical system to be uncovered.&lt;/li&gt;
+&lt;li&gt;Sparse regression is used to identify which terms best reproduce the derivatives of the measurement data, providing an approximation to the underlying dynamical system.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&#34;resources&#34;&gt;Resources&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;The original paper introducing SINDy: &lt;a href=&#34;https://www.pnas.org/content/pnas/113/15/3932.full.pdf&#34; target=&#34;_blank&#34;&gt;Discovering governing equations from data by sparse identification of nonlinear dynamical systems&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;A recent paper of mine applying SINDy to a noisy real-world data set: &lt;a href=&#34;https://arxiv.org/abs/1906.07906&#34; target=&#34;_blank&#34;&gt;Discovery of physics from data: universal laws and discrepancy models&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;SINDy software package (&lt;em&gt;coming soon&lt;/em&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Nonsmooth regularization for deep neural networks</title>
+      <link>https://briandesilva.github.io/research/nonsmooth-regularization/</link>
+      <pubDate>Tue, 17 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://briandesilva.github.io/research/nonsmooth-regularization/</guid>
+      <description>
+
+&lt;h1 id=&#34;coming-soon&#34;&gt;Coming soon!&lt;/h1&gt;
+
+&lt;!-- * Why would we want to perform nonsmooth regularization?
+* Why can&#39;t we do so with existing techniques?
+* What are some methods that allow us to use nonsmooth regularizers?
+  * Prox-gradient descent
+  * FISTA
+  * PALM?
+  * **SR3**
+* Progress so far --&gt;
+
+&lt;h1 id=&#34;resources&#34;&gt;Resources&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8573778&#34; target=&#34;_blank&#34;&gt;A unified framework for sparse relaxed regularized regression: SR3&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://arxiv.org/pdf/1902.09574.pdf&#34; target=&#34;_blank&#34;&gt;The state of sparsity in deep neural networks&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Parametrized partial differential equations (PDEs)</title>
+      <link>https://briandesilva.github.io/research/parametrized-pdes/</link>
+      <pubDate>Tue, 17 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://briandesilva.github.io/research/parametrized-pdes/</guid>
+      <description>
+
+&lt;h1 id=&#34;coming-soon&#34;&gt;Coming soon!&lt;/h1&gt;
+
+&lt;!-- * What are they?
+* Where do they show up?
+* Main ideas behind efficiently solving them
+* References (other papers, link my writeup or poster?) --&gt;
+
+&lt;h1 id=&#34;resources&#34;&gt;Resources&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://onlinelibrary.wiley.com/doi/pdf/10.1002/nme.4543&#34; target=&#34;_blank&#34;&gt;Port reduction in parametrized component static condensation: approximation and a posteriori error estimation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cambridge.org/core/services/aop-cambridge-core/content/view/31DF1EFBABE43AC6BD4B93DF7A055BE7/S1815240616001286a.pdf&#34; target=&#34;_blank&#34;&gt;A static condensation reduced basis element approach for the reynolds lubrication equation&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Example Talk</title>
       <link>https://briandesilva.github.io/talk/example-talk/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
