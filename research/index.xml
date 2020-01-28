@@ -62,7 +62,7 @@
 &lt;ul&gt;
 &lt;li&gt;The original paper introducing SINDy: &lt;a href=&#34;https://www.pnas.org/content/pnas/113/15/3932.full.pdf&#34; target=&#34;_blank&#34;&gt;Discovering governing equations from data by sparse identification of nonlinear dynamical systems&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;A recent paper of mine applying SINDy to a noisy real-world data set: &lt;a href=&#34;https://arxiv.org/abs/1906.07906&#34; target=&#34;_blank&#34;&gt;Discovery of physics from data: universal laws and discrepancy models&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;SINDy software package (&lt;em&gt;coming soon&lt;/em&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/dynamicslab/pysindy&#34; target=&#34;_blank&#34;&gt;PySINDy&lt;/a&gt;: a Python package for SINDy&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
