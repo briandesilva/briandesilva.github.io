@@ -1,2 +1,2 @@
 # briandesilva.github.io
-My academic website
+The code powering my [academic website](https://briandesilva.github.io/)
