@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Homes on Brian de Silva</title>
@@ -8,46 +8,7 @@
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Brian de Silva</copyright>
     <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://briandesilva.github.io/home/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title></title>
-      <link>https://briandesilva.github.io/home/about/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://briandesilva.github.io/home/about/</guid>
-      <description>Biography I am a Ph.D. candidate in the Applied Mathematics department at the University of Washington. My research involves sparsity-promoting regularization methods in neural networks and data-driven discovery of dynamical systems. I have also worked on developing component-based reduced order models for parameter-dependent elliptic linear partial differential equations. I am advised by Nathan Kutz.
-CV</description>
-    </item>
-    
-    <item>
-      <title>Selected Coursework</title>
-      <link>https://briandesilva.github.io/home/coursework/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://briandesilva.github.io/home/coursework/</guid>
-      <description> Machine Learning (and Machine Learning for Big Data) Numerical Linear Algebra Numerical Solution of Differential Equations Approximation Theory &amp;amp; Spectral Methods Data visualization Numerical Optimization Dynamical Systems Data Analysis Statistics Functional Analysis Partial Differential Equations Nonlinear Partial Differential Equations Finite Volume Methods  </description>
-    </item>
-    
-    <item>
-      <title>Teaching</title>
-      <link>https://briandesilva.github.io/home/teaching/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://briandesilva.github.io/home/teaching/</guid>
-      <description>Instructor:    Quarter Course     Autumn 2018 AMATH 351: Introduction to Differential Equations and Applications   Summer 2017 AMATH 351: Introduction to Differential Equations and Applications   Winter 2017 AMATH 352: Applied Linear Algebra and Numerical Analysis   Summer 2016 AMATH 352: Applied Linear Algebra and Numerical Analysis    Teaching Assistant:    Quarter Course     Spring 2017 AMATH 586: Graduate Numerical Anaylsis of Time Dependent Problems   Fall 2016 AMATH 501: Graduate Vector Calculus and Complex Variables   Spring 2016 MATH 126: Calculus III   Winter 2016 MATH 125: Calculus II   Fall 2015 AMATH 301: Beginning Scientific Computing   Spring 2015 AMATH 301: Beginning Scientific Computing   Winter 2015 MATH 124: Calculus I   Fall 2014 MATH 124: Calculus I    </description>
-    </item>
-    
-    <item>
-      <title>Contact</title>
-      <link>https://briandesilva.github.io/home/contact/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://briandesilva.github.io/home/contact/</guid>
-      <description></description>
-    </item>
+    <atom:link href="/home/" rel="self" type="application/rss+xml" />
     
   </channel>
 </rss>

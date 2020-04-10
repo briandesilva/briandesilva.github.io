@@ -1,16 +1,14 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>demo on Brian de Silva</title>
+    <title>Demo on Brian de Silva</title>
     <link>https://briandesilva.github.io/tags/demo/</link>
-    <description>Recent content in demo on Brian de Silva</description>
+    <description>Recent content in Demo on Brian de Silva</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Brian de Silva</copyright>
     <lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://briandesilva.github.io/tags/demo/index.xml" rel="self" type="application/rss+xml" />
-    
+    <atom:link href="/tags/demo/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>External Project</title>
@@ -18,7 +16,7 @@
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>https://briandesilva.github.io/project/example-external-project/</guid>
-      <description>An example of linking directly to an external project website using &lt;code&gt;external_link&lt;/code&gt;.</description>
+      <description></description>
     </item>
     
   </channel>
