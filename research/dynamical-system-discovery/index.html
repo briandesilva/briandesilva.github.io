@@ -6,9 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="theme" content="hugo-academic">
-  <meta name="generator" content="Hugo 0.21" />
+  <meta name="generator" content="Hugo 0.69.0" />
   <meta name="author" content="Brian de Silva">
-  <meta name="description" content="Graduate Student">
+  <meta name="description" content="Postdoctoral fellow">
 
   
   
@@ -223,53 +223,27 @@
 </div>
 
     <div class="article-style" itemprop="articleBody">
-      
-
-<h1 id="the-problem">The problem</h1>
-
+      <h1 id="the-problem">The problem</h1>
 <p>A large chunk of applied mathematics aims to understand dynamical systems and to characterize their behavior.</p>
-
 <p>But what happens if you have a physical system for which you don&rsquo;t <em>know</em> the governing equations?</p>
-
 <p>You suspect that underneath it all there is probably a set of differential equations pulling the strings, but you are unable or unwilling to derive them analytically.</p>
-
 <p>If you are able to get your hands on <em>measurements</em> of the system, then you may be able to use a data-driven approach.</p>
-
 <h1 id="a-solution">A solution</h1>
-
 <p>One recently developed method is the Sparse Identification of Nonlinear Dynamical systems (SINDy)</p>
-
 <h2 id="how-it-works">How it works</h2>
-
 <p>The main idea is that the right-hand sides of many dynamical systems of interest do not include many terms, implying that they are <em>sparse</em> with respect to an appropriately chosen basis.</p>
-
-<p><img src="/img/SINDY_fig.png" alt="Image summary of the SINDy method" />
-<!-- 
-<figure >
-    
-        <img src="SINDY_fig.png" />
-    
-    
-    <figcaption>
-        <h4>Image summary of the SINDy method</h4>
-        
-    </figcaption>
-    
-</figure>
- --></p>
-
+<p><img src="/img/SINDY_fig.png" alt="Image summary of the SINDy method"></p>
+<!-- raw HTML omitted -->
 <ol>
 <li>Measurement data is passed in (one can optionally feed in derivatives of the measurements as well)</li>
 <li>A library of possible interaction functions is specified. If this set of functions is rich enough then a subset of them will make up all the terms on the right-hand side of the dynamical system to be uncovered.</li>
 <li>Sparse regression is used to identify which terms best reproduce the derivatives of the measurement data, providing an approximation to the underlying dynamical system.</li>
 </ol>
-
 <h1 id="resources">Resources</h1>
-
 <ul>
-<li>The original paper introducing SINDy: <a href="https://www.pnas.org/content/pnas/113/15/3932.full.pdf" target="_blank">Discovering governing equations from data by sparse identification of nonlinear dynamical systems</a></li>
-<li>A recent paper of mine applying SINDy to a noisy real-world data set: <a href="https://arxiv.org/abs/1906.07906" target="_blank">Discovery of physics from data: universal laws and discrepancy models</a></li>
-<li><a href="https://github.com/dynamicslab/pysindy" target="_blank">PySINDy</a>: a Python package for SINDy</li>
+<li>The original paper introducing SINDy: <a href="https://www.pnas.org/content/pnas/113/15/3932.full.pdf">Discovering governing equations from data by sparse identification of nonlinear dynamical systems</a></li>
+<li>A recent paper of mine applying SINDy to a noisy real-world data set: <a href="https://arxiv.org/abs/1906.07906">Discovery of physics from data: universal laws and discrepancy models</a></li>
+<li><a href="https://github.com/dynamicslab/pysindy">PySINDy</a>: a Python package for SINDy</li>
 </ul>
 
     </div>
@@ -300,7 +274,7 @@
   <div class="container">
     <p class="powered-by">
 
-      &copy; 2017 Brian de Silva &middot; 
+      © 2017 Brian de Silva &middot; 
 
       Powered by the <a href="https://github.com/gcushen/hugo-academic" target="_blank">Academic
       theme</a> for <a href="http://gohugo.io" target="_blank">Hugo</a>.
